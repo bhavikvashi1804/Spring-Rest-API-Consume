@@ -26,7 +26,7 @@ public class PersonController {
 
 		Person p1 = service.getPerson(id);
 		System.out.println(p1.getName() +":"+ p1.getAge());
-		map.put("myObj", p1);
+		map.put("person", p1);
 		return "registerPerson";
 	}
 }
